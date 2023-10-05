@@ -1,0 +1,20 @@
+const MESSAGES = {
+    'alert_add_success' : 'Dodano',
+    'alert_add_fail' : 'Nie dodano',
+    'alert_edit_success' : 'Edytowano',
+    'alert_edit_fail' : 'Nie edytowano',
+    'yes': 'TAK',
+    'no': 'NIE',
+    'alert_error_message_missing': "Nie wybrano wiadomości",
+    'alert_error_signature_missing': "Nie wybrano podpisu",
+    'alert_error_cfrule_missing': "Nie wybrano regułki",
+    'confirm_delete': 'Kliknięcie tego przycisku spowoduje stałe usunięcie tego elementu. Czy chcesz kontynuować ?',
+    'in_progress': 'Przetwarzanie...',
+    'gus_not_found': 'Nic nie znaleziono',
+    'new person': 'nowa osoba',
+    'alert_add_success_contractor' : 'Dodano kontrahenta',
+    'alert_add_fail_contractor' : 'Nie dodano kontrahenta',
+    'alert_error_wrong_postal_code': "Nie prawidłowy kod pocztowy",
+    'confirm_leave_club': 'Kliknięcie tego przycisku spowoduje opuszczenie klubu na stałe. Stracisz dostęp do całej zawartości klubu. Czy chcesz kontyunować?',
+    'confirm_change_lawyer': "Czy na pewno chcesz przekazać tę sprawę innemu prawnikowi?"
+}

@@ -1,0 +1,31 @@
+// Variables
+@import "custom_variables";
+
+footer ul li a {
+    padding: 0;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+    color: $color-primary-link-hover;
+}
+
+footer a {
+    color: $white;
+}
+
+footer ul li {
+    display: list-item;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-background {
+    background-color: $color-primary-bg;
+}
+
+.footer-text {
+    color: $white;
+}

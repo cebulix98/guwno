@@ -1,0 +1,10 @@
+// Variables
+@import "custom_variables";
+
+.modal-dialog-top {
+    /* min-height: calc(100% - 3.5rem); */
+    display: flex;
+    align-items: flex-start;
+    margin-top: 10px !important;
+    /* min-height: calc(100% - 1rem); */
+}

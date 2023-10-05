@@ -1,0 +1,226 @@
+<style type="text/css">
+    @media print {
+        footer {
+            page-break-after: always;
+        }
+    }
+
+    .page-break {
+        page-break-after: always;
+    }
+
+    body {
+        font-family: "Calibri", Times, serif;
+        font-size: 1rem;
+    }
+
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-right {
+        text-align: right;
+    }
+
+    .float-right {
+        float: right !important;
+        width: 50%;
+    }
+
+    .float-left {
+        float: left !important;
+        width: 50%;
+    }
+
+    .clearBoth {
+        clear: both;
+    }
+
+    .mb-1,
+    .my-1 {
+        margin-bottom: 0.25rem !important;
+    }
+
+    .mb-2,
+    .my-2 {
+        margin-bottom: 0.5rem !important;
+    }
+
+    .mb-3,
+    .my-3 {
+        margin-bottom: 1rem !important;
+    }
+
+    .mb-4,
+    .my-4 {
+        margin-bottom: 1.5rem !important;
+    }
+
+    .mb-5,
+    .my-5 {
+        margin-bottom: 3rem !important;
+    }
+
+    .h1,
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    .h2,
+    h2 {
+        font-size: 1.8rem;
+    }
+
+    .h3,
+    h3 {
+        font-size: 1.575rem;
+    }
+
+    .h4,
+    h4 {
+        font-size: 1.35rem;
+    }
+
+    .h5,
+    h5 {
+        font-size: 1.125rem;
+    }
+
+    .h6,
+    h6 {
+        font-size: 0.9rem;
+    }
+
+    .lead {
+        font-size: 1.125rem;
+        font-weight: 300;
+    }
+
+    .display-1 {
+        font-size: 6rem;
+    }
+
+    .p-1 {
+        padding: 0.25rem !important;
+    }
+
+    .blue-header {
+        background-color: #003399;
+        color: white;
+    }
+
+    .soft-strong {
+        font-weight: bold;
+    }
+
+    .font10 {
+        font-size: 10pt;
+    }
+
+    .font11 {
+        font-size: 11pt;
+    }
+
+    .font15 {
+        font-size: 16pt;
+    }
+
+    .font8 {
+        font-size: 8pt;
+    }
+
+    .font7 {
+        font-size: 7pt;
+    }
+
+    .top-bottom-border {
+        border-bottom: 1px solid black;
+        border-top: 1px solid black;
+    }
+
+    .border-none {
+        border: none;
+    }
+
+    .flex-container {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        -ms-box-orient: horizontal;
+        display: -moz-flex;
+        display: flex;
+    }
+
+    .nowrap {
+        flex-wrap: nowrap;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .wrap-reverse {
+        flex-wrap: wrap-reverse;
+    }
+
+    .cell-title {
+        background-color: #c8d1e8;
+    }
+
+    .font-bold {
+        font-weight: bold;
+    }
+
+    .table_padding {
+        padding: 10;
+    }
+
+    table,
+    td {
+        padding: 5;
+    }
+
+    table,
+    th {
+        padding: 5;
+    }
+
+    .cell-darker {
+        background-color: #c8dfe8 !important;
+    }
+
+    .cell-brighter {
+        background-color: #c8d1e8 !important;
+    }
+
+    .page-break-avoid {
+        page-break-inside: avoid;
+    }
+
+    .no-style-list {
+        list-style: none !important;
+    }
+
+    .no-border {
+        border: none !important;
+    }
+
+    .width100 {
+        width: 100%;
+    }
+
+    .width80 {
+        width: 80%;
+    }
+
+    .flag {
+        width: 150px;
+        height: auto;
+    }
+
+    .flag_smaller {
+        width: 120px;
+        height: auto;
+    }
+</style>

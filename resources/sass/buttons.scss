@@ -1,0 +1,341 @@
+// Variables
+@import "custom_variables";
+
+.btn {
+  
+}
+
+.btn-nobtn {
+    background-color: transparent;
+    color: $color-text-button-link-primary;
+}
+
+.btn-primary {
+    color: $color-text-button-primary;
+    background-color: $color-bg-button-primary !important;
+    border-color: $color-border-button-primary !important;
+}
+.btn-primary:focus,
+.btn-primary.focus {
+    color: $color-text-button-primary;
+    background-color: $color-bg-button-primary-focused !important;
+    border-color: $color-border-button-primary-focused !important;
+}
+.btn-primary:hover {
+    color: $color-text-button-primary;
+    background-color: $color-bg-button-primary-focused !important;
+    border-color: $color-border-button-primary-focused !important;
+}
+.btn-primary:active,
+.btn-primary.active,
+.open > .dropdown-toggle.btn-primary {
+    color: $color-text-button-primary;
+    background-color: $color-bg-button-primary-focused !important;
+    background-image: none;
+    border-color: $color-border-button-primary-focused !important;
+}
+.btn-primary:active:hover,
+.btn-primary.active:hover,
+.open > .dropdown-toggle.btn-primary:hover,
+.btn-primary:active:focus,
+.btn-primary.active:focus,
+.open > .dropdown-toggle.btn-primary:focus,
+.btn-primary:active.focus,
+.btn-primary.active.focus,
+.open > .dropdown-toggle.btn-primary.focus {
+    color: $color-text-button-primary;
+    background-color: $color-border-button-primary-focused !important;
+    border-color: $color-border-button-primary-focused;
+}
+.btn-primary.disabled:hover,
+.btn-primary[disabled]:hover,
+fieldset[disabled] .btn-primary:hover,
+.btn-primary.disabled:focus,
+.btn-primary[disabled]:focus,
+fieldset[disabled] .btn-primary:focus,
+.btn-primary.disabled.focus,
+.btn-primary[disabled].focus,
+fieldset[disabled] .btn-primary.focus {
+    background-color: $color-bg-button-primary !important;
+    border-color: $color-border-button-primary !important;
+}
+.btn-primary .badge {
+    color: $color-bg-button-primary !important;
+    background-color: $color-text-button-primary;
+}
+
+.btn-circle {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 4rem;
+}
+
+.btn-secondary {
+    color: $color-text-button-secondary;
+    background-color: $color-bg-button-secondary !important;
+    border-color: $color-border-button-secondary !important;
+}
+.btn-secondary:focus,
+.btn-secondary.focus {
+    color: $color-text-button-secondary;
+    background-color: $color-bg-button-secondary-focused !important;
+    border-color: $color-border-button-secondary-focused !important;
+}
+.btn-secondary:hover {
+    color: $color-text-button-secondary;
+    background-color: $color-bg-button-secondary-focused !important;
+    border-color: $color-border-button-secondary-focused !important;
+}
+.btn-secondary:active,
+.btn-secondary.active,
+.open > .dropdown-toggle.btn-secondary {
+    color: $color-text-button-secondary;
+    background-color: $color-bg-button-secondary-focused !important;
+    background-image: none;
+    border-color: $color-border-button-secondary-focused !important;
+}
+.btn-secondary:active:hover,
+.btn-secondary.active:hover,
+.open > .dropdown-toggle.btn-secondary:hover,
+.btn-secondary:active:focus,
+.btn-secondary.active:focus,
+.open > .dropdown-toggle.btn-secondary:focus,
+.btn-secondary:active.focus,
+.btn-secondary.active.focus,
+.open > .dropdown-toggle.btn-secondary.focus {
+    color: $color-text-button-secondary;
+    background-color: $color-border-button-secondary-focused !important;
+    border-color: $color-border-button-secondary-focused;
+}
+.btn-secondary.disabled:hover,
+.btn-secondary[disabled]:hover,
+fieldset[disabled] .btn-secondary:hover,
+.btn-secondary.disabled:focus,
+.btn-secondary[disabled]:focus,
+fieldset[disabled] .btn-secondary:focus,
+.btn-secondary.disabled.focus,
+.btn-secondary[disabled].focus,
+fieldset[disabled] .btn-secondary.focus {
+    background-color: $color-bg-button-secondary !important;
+    border-color: $color-border-button-secondary !important;
+}
+.btn-secondary .badge {
+    color: $color-bg-button-secondary !important;
+    background-color: $color-text-button-secondary;
+}
+
+.btn-third {
+    color: $color-text-button-third;
+    background-color: $color-bg-button-third !important;
+    border-color: $color-border-button-third !important;
+}
+.btn-third:focus,
+.btn-third.focus {
+    color: $color-text-button-third;
+    background-color: $color-bg-button-third-focused !important;
+    border-color: $color-border-button-third-focused !important;
+}
+.btn-third:hover {
+    color: $color-text-button-third;
+    background-color: $color-bg-button-third-focused !important;
+    border-color: $color-border-button-third-focused !important;
+}
+.btn-third:active,
+.btn-third.active,
+.open > .dropdown-toggle.btn-third {
+    color: $color-text-button-third;
+    background-color: $color-bg-button-third-focused !important;
+    background-image: none;
+    border-color: $color-border-button-third-focused !important;
+}
+.btn-third:active:hover,
+.btn-third.active:hover,
+.open > .dropdown-toggle.btn-third:hover,
+.btn-third:active:focus,
+.btn-third.active:focus,
+.open > .dropdown-toggle.btn-third:focus,
+.btn-third:active.focus,
+.btn-third.active.focus,
+.open > .dropdown-toggle.btn-third.focus {
+    color: $color-text-button-third;
+    background-color: $color-border-button-third-focused !important;
+    border-color: $color-border-button-third-focused;
+}
+.btn-third.disabled:hover,
+.btn-third[disabled]:hover,
+fieldset[disabled] .btn-third:hover,
+.btn-third.disabled:focus,
+.btn-third[disabled]:focus,
+fieldset[disabled] .btn-third:focus,
+.btn-third.disabled.focus,
+.btn-third[disabled].focus,
+fieldset[disabled] .btn-third.focus {
+    background-color: $color-bg-button-third !important;
+    border-color: $color-border-button-third !important;
+}
+.btn-third .badge {
+    color: $color-bg-button-third !important;
+    background-color: $color-text-button-third;
+}
+
+.btn-fourth {
+    color: $color-text-button-fourth;
+    background-color: $color-bg-button-fourth !important;
+    border-color: $color-border-button-fourth !important;
+}
+.btn-fourth:focus,
+.btn-fourth.focus {
+    color: $color-text-button-fourth;
+    background-color: $color-bg-button-fourth-focused !important;
+    border-color: $color-border-button-fourth-focused !important;
+}
+.btn-fourth:hover {
+    color: $color-text-button-fourth;
+    background-color: $color-bg-button-fourth-focused !important;
+    border-color: $color-border-button-fourth-focused !important;
+}
+.btn-fourth:active,
+.btn-fourth.active,
+.open > .dropdown-toggle.btn-fourth {
+    color: $color-text-button-fourth;
+    background-color: $color-bg-button-fourth-focused !important;
+    background-image: none;
+    border-color: $color-border-button-fourth-focused !important;
+}
+.btn-fourth:active:hover,
+.btn-fourth.active:hover,
+.open > .dropdown-toggle.btn-fourth:hover,
+.btn-fourth:active:focus,
+.btn-fourth.active:focus,
+.open > .dropdown-toggle.btn-fourth:focus,
+.btn-fourth:active.focus,
+.btn-fourth.active.focus,
+.open > .dropdown-toggle.btn-fourth.focus {
+    color: $color-text-button-fourth;
+    background-color: $color-border-button-fourth-focused !important;
+    border-color: $color-border-button-fourth-focused;
+}
+.btn-fourth.disabled:hover,
+.btn-fourth[disabled]:hover,
+fieldset[disabled] .btn-fourth:hover,
+.btn-fourth.disabled:focus,
+.btn-fourth[disabled]:focus,
+fieldset[disabled] .btn-fourth:focus,
+.btn-fourth.disabled.focus,
+.btn-fourth[disabled].focus,
+fieldset[disabled] .btn-fourth.focus {
+    background-color: $color-bg-button-fourth !important;
+    border-color: $color-border-button-fourth !important;
+}
+.btn-fourth .badge {
+    color: $color-bg-button-fourth !important;
+    background-color: $color-text-button-fourth;
+}
+
+.btn-five {
+    color: $color-text-button-five;
+    background-color: $color-bg-button-five !important;
+    border-color: $color-border-button-five !important;
+}
+.btn-five:focus,
+.btn-five.focus {
+    color: $color-text-button-five;
+    background-color: $color-bg-button-five-focused !important;
+    border-color: $color-border-button-five-focused !important;
+}
+.btn-five:hover {
+    color: $color-text-button-five;
+    background-color: $color-bg-button-five-focused !important;
+    border-color: $color-border-button-five-focused !important;
+}
+.btn-five:active,
+.btn-five.active,
+.open > .dropdown-toggle.btn-five {
+    color: $color-text-button-five;
+    background-color: $color-bg-button-five-focused !important;
+    background-image: none;
+    border-color: $color-border-button-five-focused !important;
+}
+.btn-five:active:hover,
+.btn-five.active:hover,
+.open > .dropdown-toggle.btn-five:hover,
+.btn-five:active:focus,
+.btn-five.active:focus,
+.open > .dropdown-toggle.btn-five:focus,
+.btn-five:active.focus,
+.btn-five.active.focus,
+.open > .dropdown-toggle.btn-five.focus {
+    color: $color-text-button-five;
+    background-color: $color-border-button-five-focused !important;
+    border-color: $color-border-button-five-focused;
+}
+.btn-five.disabled:hover,
+.btn-five[disabled]:hover,
+fieldset[disabled] .btn-five:hover,
+.btn-five.disabled:focus,
+.btn-five[disabled]:focus,
+fieldset[disabled] .btn-five:focus,
+.btn-five.disabled.focus,
+.btn-five[disabled].focus,
+fieldset[disabled] .btn-five.focus {
+    background-color: $color-bg-button-five !important;
+    border-color: $color-border-button-five !important;
+}
+.btn-five .badge {
+    color: $color-bg-button-five !important;
+    background-color: $color-text-button-five;
+}
+
+.btn-square {
+    color: $color-text-button-square;
+    background-color: $color-bg-button-square !important;
+    border-color: $color-border-button-square !important;
+}
+.btn-square:focus,
+.btn-square.focus {
+    color: $color-text-button-square;
+    background-color: $color-bg-button-square-focused !important;
+    border-color: $color-border-button-square-focused !important;
+}
+.btn-square:hover {
+    color: $color-text-button-square;
+    background-color: $color-bg-button-square-focused !important;
+    border-color: $color-border-button-square-focused !important;
+}
+.btn-square:active,
+.btn-square.active,
+.open > .dropdown-toggle.btn-square {
+    color: $color-text-button-square;
+    background-color: $color-bg-button-square-focused !important;
+    background-image: none;
+    border-color: $color-border-button-square-focused !important;
+}
+.btn-square:active:hover,
+.btn-square.active:hover,
+.open > .dropdown-toggle.btn-square:hover,
+.btn-square:active:focus,
+.btn-square.active:focus,
+.open > .dropdown-toggle.btn-square:focus,
+.btn-square:active.focus,
+.btn-square.active.focus,
+.open > .dropdown-toggle.btn-square.focus {
+    color: $color-text-button-square;
+    background-color: $color-border-button-square-focused !important;
+    border-color: $color-border-button-square-focused;
+}
+.btn-square.disabled:hover,
+.btn-square[disabled]:hover,
+fieldset[disabled] .btn-square:hover,
+.btn-square.disabled:focus,
+.btn-square[disabled]:focus,
+fieldset[disabled] .btn-square:focus,
+.btn-square.disabled.focus,
+.btn-square[disabled].focus,
+fieldset[disabled] .btn-square.focus {
+    background-color: $color-bg-button-square !important;
+    border-color: $color-border-button-square !important;
+}
+.btn-square .badge {
+    color: $color-bg-button-square !important;
+    background-color: $color-text-button-square;
+}

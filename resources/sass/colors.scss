@@ -1,0 +1,252 @@
+// Variables
+@import "custom_variables";
+
+.transparent {
+    background: transparent;
+}
+
+.default-text {
+    color: $color-primary-text;
+}
+
+.color-primary {
+    color: $color-primary;
+}
+
+.color-primary-bg {
+    color: $color-primary-bg;
+}
+
+.color-secondary {
+    color: $color-secondary;
+}
+
+.color-third {
+    color: $color-third;
+}
+
+.color-fourth {
+    color: $color-fourth;
+}
+
+/* color */
+.green {
+    background-color: transparent !important;
+    color: $green !important;
+}
+
+.red {
+    color: $red !important;
+}
+
+.blue {
+    color: $blue !important;
+}
+
+.white {
+    color: $white !important;
+    background-color: transparent !important;
+}
+
+.neon_green {
+    color: $green-neon;
+}
+
+.neon_red {
+    color: $red-neon;
+}
+
+.yellow {
+    color: $yellow !important;
+}
+
+.orange {
+    color: $orange !important;
+}
+
+.dark-blue {
+    color: $blue-dark;
+}
+
+.darker-blue {
+    color: $blue-dark-deep;
+}
+
+.grey {
+    color: $grey;
+}
+
+.font-white {
+    color: $white;
+}
+
+.color-dark-grey {
+    color: $grey-dark !important;
+}
+
+.color-light-green {
+    color: $green-light !important;
+}
+
+.color-transparent {
+    color: transparent !important;
+}
+
+.color-red {
+    color: $red !important;
+}
+
+.color-green {
+    color: $green !important;
+}
+.color-yellow {
+    color: $yellow !important;
+}
+.color-grey {
+    color: $grey !important;
+}
+.color-light-blue {
+    color: $blue !important;
+}
+
+.color-black {
+    color: black;
+}
+/* background-color */
+
+.background-dark-blue {
+    background-color: $blue-dark;
+}
+
+.background-blue {
+    background-color: $blue;
+}
+
+.background-window-darker {
+    background-color: $grey-light-ultra;
+}
+
+.background-window-standard {
+    background-color: $white;
+}
+
+.background-header-dark {
+    background-color: $grey-dark !important;
+}
+
+.background-table-header-dark {
+    background-color: $grey-dark !important;
+}
+
+.background-table-header-light {
+    background-color: $grey-light !important;
+}
+
+.background-table-body-dark {
+    background-color: $grey-medium !important;
+}
+
+.background-table-body-light {
+    background-color: $grey-light !important;
+}
+
+.background-dark-grey {
+    background-color: $grey-dark !important;
+    color: $white !important;
+}
+
+.background-light-white {
+    background-color: $white !important;
+    color: $color-primary-text !important;
+}
+
+.background-dark-regular {
+    background-color: $color-primary-text !important;
+    color: $white !important;
+}
+
+.background-light-regular {
+    background-color: $white !important;
+    color: $color-primary-text !important;
+}
+
+.background-light-green {
+    background-color: $green-light !important;
+}
+
+.background-link-visible {
+    background-color: $color-primary-text !important;
+}
+
+.background-light-red {
+    background-color: $red-light !important;
+}
+
+.background-dark-red {
+    background-color: $color-primary-text !important;
+}
+
+.background-light-blue {
+    background-color: lightblue !important;
+}
+
+.background-light-ultra-blue {
+    background-color: #ddf5fd !important;
+}
+
+.background-yellow {
+    background-color: yellow !important;
+}
+
+.background-green {
+    background-color: green !important;
+}
+
+.background-red {
+    background-color: red !important;
+}
+
+.background-grey {
+    background-color: grey !important;
+}
+
+.background-transparent {
+    background-color: transparent !important;
+}
+
+.background-black {
+    background-color: black !important;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.background-see-through {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* border */
+.border-blue {
+    border: 2px solid $blue-light;
+}
+
+.border-light-grey {
+    border: $grey-light;
+}
+
+/* options */
+
+.activated {
+    color: $green;
+}
+
+.disactivated {
+    color: $red;
+}
+
+.banner-background {
+    --bg-opacity: 1;
+    background-color: $color-secondary;
+    background-color: rgba(153, 204, 99, 0.418);
+}

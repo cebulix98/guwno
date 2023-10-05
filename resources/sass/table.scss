@@ -1,0 +1,44 @@
+// Variables
+@import "custom_variables";
+
+.table-check-sign {
+    display: table-cell!important;
+    position: relative!important;
+}
+
+.table_header_fixed {
+    overflow-y: auto;
+    height: 100px;
+}
+
+.table_header_fixed th {
+    position: sticky;
+    top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.cell-darker {
+    background-color: $table-cell-dark;
+}
+
+.cell-brighter {
+    background-color: $table-cell-light;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border: none;
+}
+
+.featured-cell {
+    background-color: $table-cell-dark;
+}
+

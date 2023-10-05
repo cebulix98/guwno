@@ -1,0 +1,24 @@
+// Variables
+@import "custom_variables";
+
+.tooltip-inner {
+    background-color: $color-primary-bg;
+    color: $white;
+}
+
+.bs-tooltip-bottom .tooltip-inner {
+    text-align: left;
+}
+
+.popover-body {
+    color: $color-primary-bg;
+    font-size: 1.1rem;
+}
+
+.popover-header {
+    font-weight: bold;
+}
+
+.popover{
+    max-width: 50%; /* Max Width of the popover (depending on the container!) */
+}

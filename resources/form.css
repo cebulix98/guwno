@@ -1,0 +1,54 @@
+.form-control {
+  color: #488bd8;
+  font-size: 1rem !important;
+}
+
+.form-control,
+.is-focused .form-control {
+  color: #488bd8;
+}
+
+.inline-field input,
+.inline-field label {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.form-width {
+  width: inherit;
+}
+
+.pretty-form {
+  direction: rtl;
+}
+
+.pretty-input {
+  width: 100%;
+}
+
+.form-height {
+  height: 100%;
+}
+
+.form-logo {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.required {
+  font-weight: bold;
+}
+
+.required::before {
+  content: "*";
+  margin-right: 6px;
+  color: red;
+}
+
+.form_label {
+  font-weight: bold;
+  font-size: 1.1rem !important;
+  margin-bottom: 0;
+}

@@ -1,0 +1,45 @@
+1. Dodać do bazy nowy formularz 
+
+tabela motions 
+
+name - nazwa formularza 
+code - kod formularza musi być w formacie motion_type_X, gdzie x to id formularza
+
+2. Utworzyc plik w 
+
+resources\views\subpages\motions\forms
+
+o nazwie motion_form_X.blade.php
+
+gdzie X to kolejny numer formularza (zgodny z id z bazy)
+
+3. Uzupełnić ten plik na wzór pozostałych 
+
+4. Dodać pliki w 
+resources\views\pdf\motions 
+resources\views\rtf\motions
+
+na wzór pozostałych 
+
+
+
+JEŚLI SĄ DODAWANE NOWE POLA:
+
+1. Jeśli są nowe pola trzeba je dodać do tabeli motion_fields
+
+name - nazwa pola 
+code - kod pola, taki sam jak wpisywany w formularzu
+name_lang - zmienna językowa, pod tą zmienną będą widoczne nazwy w label i placeholder ustawiane w odpowiednich plikach językowych resources\lang\pl
+
+
+JEŚLI FORMULARZ MA BYĆ WŁASNY
+
+1. Utworzyć plik, gdzie X to id formularza
+
+resources\views\subpages\motions\forms\custom\custom_motion_form_X.blade.php
+
+2. Edytować lub utworzyć wiersz w tabeli motion_settings
+
+motion_id - id formularza 
+has_custom_form - ma wlasny formularz 
+custom_link - wlasny kod, bez polskichc znakow, spacji i znaku "/"
